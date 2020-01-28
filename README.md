@@ -13,6 +13,9 @@ Usage of the script:
 ./methyl_island_sliding_window.pl \<window size> \<mCpG fraction> \<step size> \<sorted mCpG File>
   
   window size - starting size of the methylation island window
+  
   mCpG fraction - the minimum fraction of methylated CpGs required within the window to be accepted
+  
   step size - base pairs to extend an accepted window by (continues extending by the step size as long as the mCpG fraction is met)
+  
   mCpG File - input file with a list of all methylated CpGs in the genome, sorted by scaffold/chromosome and position
